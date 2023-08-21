@@ -1,0 +1,612 @@
+2023-08-14 18:15:44.045239: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-08-14 18:15:44.105388: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2023-08-14 18:15:44.106117: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-08-14 18:15:45.259771: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.4:5000
+[33mPress CTRL+C to quit[0m
+2023-08-14 18:15:47.688511: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:15:47.690081: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:15:47.691874: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-14 18:15:50.811669: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:15:50.813251: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:15:50.814813: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+ 1/45 [..............................] - ETA: 21s33/45 [=====================>........] - ETA: 0s 45/45 [==============================] - 1s 2ms/step
+39.62.2.226 - - [14/Aug/2023 18:15:51] "GET /day_forecast?station_id=S111&day=1 HTTP/1.1" 200 -
+2023-08-14 18:16:11.707692: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:16:11.709421: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:16:11.710941: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-14 18:16:14.968519: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:16:14.970532: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:16:14.972213: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+    timestamp  min_wbgt   max_wbgt
+0  2023-08-14   30.3356  33.258194
+ 1/45 [..............................] - ETA: 28s30/45 [===================>..........] - ETA: 0s 45/45 [==============================] - 1s 2ms/step
+39.62.2.226 - - [14/Aug/2023 18:16:15] "GET /day_forecast?station_id=S111&day=1 HTTP/1.1" 200 -
+2023-08-14 18:17:40.880865: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:17:40.882521: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:17:40.883744: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-14 18:17:43.921799: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:17:43.923441: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:17:43.925010: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+    timestamp  min_wbgt   max_wbgt
+0  2023-08-14   30.3356  33.258194
+ 1/45 [..............................] - ETA: 18s32/45 [====================>.........] - ETA: 0s 45/45 [==============================] - 1s 2ms/step
+39.62.2.226 - - [14/Aug/2023 18:17:44] "GET /day_forecast?station_id=S111&day=1 HTTP/1.1" 200 -
+2023-08-14 18:24:11.940766: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:24:11.942347: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:24:11.943797: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-14 18:24:16.895080: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:24:16.896862: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:24:16.898107: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+    timestamp  min_wbgt   max_wbgt
+0  2023-08-14   30.3356  33.258194
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 378ms/step
+122.11.214.165 - - [14/Aug/2023 18:24:17] "GET /predict?hour=2&station_id=S111&no_third_party_tracking=true HTTP/1.1" 200 -
+122.11.214.165 - - [14/Aug/2023 18:24:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+118.189.206.229 - - [14/Aug/2023 18:34:38] "GET /current?station_id=S111 HTTP/1.1" 200 -
+118.189.206.229 - - [14/Aug/2023 18:34:48] "GET /current?station_id=S50 HTTP/1.1" 200 -
+2023-08-14 18:42:20.260185: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:42:20.261783: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:42:20.263155: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-14 18:42:23.377248: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 18:42:23.378935: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 18:42:23.380825: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+1/4 [======>.......................] - ETA: 1s4/4 [==============================] - 0s 2ms/step
+118.189.206.229 - - [14/Aug/2023 18:42:23] "GET /mse?station_id=S111 HTTP/1.1" 200 -
+2023-08-14 19:09:50.344064: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 19:09:50.345546: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 19:09:50.346972: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-14 19:09:53.415447: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-14 19:09:53.417056: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-14 19:09:53.418531: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+ 1/45 [..............................] - ETA: 18s35/45 [======================>.......] - ETA: 0s 45/45 [==============================] - 0s 1ms/step
+118.189.206.229 - - [14/Aug/2023 19:09:53] "GET /day_forecast?station_id=S111&day=1 HTTP/1.1" 200 -
+138.197.133.195 - - [14/Aug/2023 19:10:31] code 400, message Bad request syntax ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03o1\x19\x9c¬èIþ\x19jmZ\x99ß¨')
+138.197.133.195 - - [14/Aug/2023 19:10:31] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03o1\x19\x9c¬èIþ\x19jmZ\x99ß¨[0m" HTTPStatus.BAD_REQUEST -
+138.197.133.195 - - [14/Aug/2023 19:10:31] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03YsÉ²æ\x92b¥H¨YÚmÃâj·ñ§¦Ï\x94\x0f4~ªK\x00P%ä\x9f\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+138.197.133.195 - - [14/Aug/2023 19:10:31] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03YsÉ²æ\x92b¥H¨YÚmÃâj·ñ§¦Ï\x94\x0f4~ªK\x00P%ä\x9f\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+138.197.133.195 - - [14/Aug/2023 19:10:31] "[33mGET / HTTP/1.1[0m" 404 -
+205.210.31.101 - - [14/Aug/2023 19:40:01] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.34 - - [14/Aug/2023 22:33:39] code 400, message Bad request version ('¥_')
+167.94.138.34 - - [14/Aug/2023 22:33:39] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03A6[ÿEF\x85ÊÖ"ÍH\x87l`E\x16ÓÇ¤\x81'p¶|h»*+~P\x0e ¥_[0m" HTTPStatus.BAD_REQUEST -
+167.94.138.34 - - [14/Aug/2023 22:33:41] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.34 - - [14/Aug/2023 22:33:41] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.34 - - [14/Aug/2023 22:33:41] code 505, message Invalid HTTP version (2.0)
+167.94.138.34 - - [14/Aug/2023 22:33:41] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+198.235.24.34 - - [14/Aug/2023 22:57:19] "[33mGET / HTTP/1.1[0m" 404 -
+198.235.24.131 - - [14/Aug/2023 23:50:26] "[33mGET / HTTP/1.0[0m" 404 -
+172.105.128.11 - - [15/Aug/2023 00:23:12] code 400, message Bad request version ('À\x14À')
+172.105.128.11 - - [15/Aug/2023 00:23:12] "[35m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03\x8a@*\\«Ç_\x00?G\x0dëM,z\x8dÒ[\x98<bj\x88\x85>ú\x98\x0dÔf:¤\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+192.155.88.231 - - [15/Aug/2023 00:33:17] "[33mGET / HTTP/1.1[0m" 404 -
+172.105.128.13 - - [15/Aug/2023 00:35:06] "[33mGET / HTTP/1.1[0m" 404 -
+20.64.156.79 - - [15/Aug/2023 01:15:29] "[33mGET / HTTP/1.0[0m" 404 -
+20.64.156.79 - - [15/Aug/2023 01:15:29] code 400, message Bad request version ('RTSP/1.0')
+20.64.156.79 - - [15/Aug/2023 01:15:29] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+20.64.156.79 - - [15/Aug/2023 01:15:30] code 400, message Bad HTTP/0.9 request type ('\x00')
+20.64.156.79 - - [15/Aug/2023 01:15:30] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+20.64.156.79 - - [15/Aug/2023 01:15:31] code 400, message Bad request version ('0.12\x00')
+20.64.156.79 - - [15/Aug/2023 01:15:31] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+20.64.156.79 - - [15/Aug/2023 01:15:32] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+20.64.156.79 - - [15/Aug/2023 01:15:32] "[35m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+20.64.156.79 - - [15/Aug/2023 01:15:32] "[33mOPTIONS / HTTP/1.0[0m" 404 -
+20.64.156.79 - - [15/Aug/2023 01:15:34] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+20.64.156.79 - - [15/Aug/2023 01:15:34] "[35m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+20.64.156.79 - - [15/Aug/2023 01:15:34] code 400, message Bad request syntax ('HELP')
+20.64.156.79 - - [15/Aug/2023 01:15:34] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+20.64.156.79 - - [15/Aug/2023 01:15:34] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+20.64.156.79 - - [15/Aug/2023 01:15:34] "[35m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" HTTPStatus.BAD_REQUEST -
+20.64.156.79 - - [15/Aug/2023 01:15:34] code 400, message Bad request version ('\x00/\x00')
+20.64.156.79 - - [15/Aug/2023 01:15:34] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+20.3.139.36 - - [15/Aug/2023 01:37:06] "[33mGET / HTTP/1.0[0m" 404 -
+20.3.139.36 - - [15/Aug/2023 01:37:06] code 400, message Bad request version ('RTSP/1.0')
+20.3.139.36 - - [15/Aug/2023 01:37:06] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+20.3.139.36 - - [15/Aug/2023 01:37:07] code 400, message Bad HTTP/0.9 request type ('\x00')
+20.3.139.36 - - [15/Aug/2023 01:37:07] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+20.3.139.36 - - [15/Aug/2023 01:37:08] code 400, message Bad request version ('0.12\x00')
+20.3.139.36 - - [15/Aug/2023 01:37:08] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+20.3.139.36 - - [15/Aug/2023 01:37:09] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+20.3.139.36 - - [15/Aug/2023 01:37:09] "[35m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+20.3.139.36 - - [15/Aug/2023 01:37:09] "[33mOPTIONS / HTTP/1.0[0m" 404 -
+20.3.139.36 - - [15/Aug/2023 01:37:10] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+20.3.139.36 - - [15/Aug/2023 01:37:10] "[35m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+20.3.139.36 - - [15/Aug/2023 01:37:10] code 400, message Bad request syntax ('HELP')
+20.3.139.36 - - [15/Aug/2023 01:37:10] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+20.3.139.36 - - [15/Aug/2023 01:37:11] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+20.3.139.36 - - [15/Aug/2023 01:37:11] "[35m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" HTTPStatus.BAD_REQUEST -
+20.3.139.36 - - [15/Aug/2023 01:37:11] code 400, message Bad request version ('\x00/\x00')
+20.3.139.36 - - [15/Aug/2023 01:37:11] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+35.203.210.72 - - [15/Aug/2023 03:53:28] code 400, message Bad request version ('À(À$À\x14À')
+35.203.210.72 - - [15/Aug/2023 03:53:28] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03{L½s~\x8bu¤ {\x84ðæ\x06'\x80ü\x8b)êZb³\x9abßÎ\x87à²&\x9c\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+118.189.206.229 - - [15/Aug/2023 04:28:44] "GET /current?station_id=S50 HTTP/1.1" 200 -
+121.6.53.176 - - [15/Aug/2023 04:30:18] "GET /all_current HTTP/1.1" 200 -
+121.6.53.176 - - [15/Aug/2023 04:30:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-15 04:30:23.938305: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 04:30:23.939777: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 04:30:23.941283: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 04:30:27.072491: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 04:30:27.074631: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 04:30:27.076562: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+    timestamp  min_wbgt   max_wbgt
+0  2023-08-14   30.3356  33.258194
+1/4 [======>.......................] - ETA: 1s4/4 [==============================] - 0s 2ms/step
+121.6.53.176 - - [15/Aug/2023 04:30:27] "GET /mse?station_id=S111 HTTP/1.1" 200 -
+2023-08-15 04:30:59.176220: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 04:30:59.177810: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 04:30:59.179290: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 04:31:02.236697: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 04:31:02.238393: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 04:31:02.239815: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+ 1/45 [..............................] - ETA: 18s34/45 [=====================>........] - ETA: 0s 45/45 [==============================] - 0s 2ms/step
+121.6.53.176 - - [15/Aug/2023 04:31:02] "GET /day_forecast?station_id=S111&day=1 HTTP/1.1" 200 -
+118.189.206.229 - - [15/Aug/2023 04:32:45] "GET /current?station_id=S50 HTTP/1.1" 200 -
+2023-08-15 06:01:37.110145: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:01:37.111575: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:01:37.112833: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 06:01:42.181999: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:01:42.183375: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:01:42.185026: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+    timestamp   min_wbgt   max_wbgt
+0  2023-08-15  30.841238  30.841238
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 400ms/step
+115.66.169.10 - - [15/Aug/2023 06:01:42] "GET /predict?hour=2&station_id=S111 HTTP/1.1" 200 -
+115.66.169.10 - - [15/Aug/2023 06:01:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-15 06:02:06.802574: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:02:06.804078: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:02:06.805423: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 06:02:09.915290: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:02:09.916675: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:02:09.918237: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+ 1/45 [..............................] - ETA: 17s35/45 [======================>.......] - ETA: 0s 45/45 [==============================] - 0s 1ms/step
+115.66.169.10 - - [15/Aug/2023 06:02:10] "GET /day_forecast?station_id=S111&day=1 HTTP/1.1" 200 -
+118.189.206.229 - - [15/Aug/2023 06:04:30] "GET /current?station_id=S44 HTTP/1.1" 200 -
+2023-08-15 06:05:17.309945: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:05:17.311306: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:05:17.312940: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+[2023-08-15 06:05:21,749] ERROR in app: Exception on /predict [GET]
+Traceback (most recent call last):
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/developer/api/app.py", line 29, in predict
+    return jsonify(predictModel(modelA,input,df))
+  File "/home/developer/api/model.py", line 63, in predictModel
+    predictions = model.predict(X)
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/keras/engine/training.py", line 2407, in predict
+    raise ValueError(
+ValueError: Unexpected result of `predict_function` (Empty batch_outputs). Please use `Model.compile(..., run_eagerly=True)`, or `tf.config.run_functions_eagerly(True)` for more information of where went wrong, or file a issue/bug to `tf.keras`.
+118.189.206.229 - - [15/Aug/2023 06:05:21] "[35m[1mGET /predict?hour=2&station_id=S44 HTTP/1.1[0m" 500 -
+118.189.206.229 - - [15/Aug/2023 06:05:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-08-15 06:05:29.988487: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:05:29.990283: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:05:29.991671: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 06:05:32.425010: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:05:32.426503: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:05:32.427980: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 06:05:35.986201: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:05:35.989463: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:05:35.992341: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 06:05:36.056571: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:05:36.060167: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:05:36.062344: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+    timestamp   min_wbgt   max_wbgt
+0  2023-08-15  30.841238  30.841238
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 951ms/step
+ 1/45 [..............................] - ETA: 40s118.189.206.229 - - [15/Aug/2023 06:05:36] "GET /predict?hour=2&station_id=S50 HTTP/1.1" 200 -
+30/45 [===================>..........] - ETA: 0s 45/45 [==============================] - 1s 2ms/step
+115.66.169.10 - - [15/Aug/2023 06:05:36] "GET /day_forecast?station_id=S111&day=1 HTTP/1.1" 200 -
+2023-08-15 06:05:40.666919: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:05:40.668457: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:05:40.669781: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+[2023-08-15 06:05:45,018] ERROR in app: Exception on /predict [GET]
+Traceback (most recent call last):
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/developer/api/app.py", line 29, in predict
+    return jsonify(predictModel(modelA,input,df))
+  File "/home/developer/api/model.py", line 63, in predictModel
+    predictions = model.predict(X)
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/keras/engine/training.py", line 2407, in predict
+    raise ValueError(
+ValueError: Unexpected result of `predict_function` (Empty batch_outputs). Please use `Model.compile(..., run_eagerly=True)`, or `tf.config.run_functions_eagerly(True)` for more information of where went wrong, or file a issue/bug to `tf.keras`.
+118.189.206.229 - - [15/Aug/2023 06:05:45] "[35m[1mGET /predict?hour=2&station_id=S44 HTTP/1.1[0m" 500 -
+2023-08-15 06:05:56.794971: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:05:56.797051: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:05:56.798450: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 06:06:02.085748: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:06:02.087086: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:06:02.088973: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+    timestamp   min_wbgt   max_wbgt
+0  2023-08-15  30.841238  30.841238
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 414ms/step
+118.189.206.229 - - [15/Aug/2023 06:06:02] "GET /predict?hour=2&station_id=S50 HTTP/1.1" 200 -
+2023-08-15 06:06:40.728737: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:06:40.730096: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:06:40.731491: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+[2023-08-15 06:06:45,014] ERROR in app: Exception on /predict [GET]
+Traceback (most recent call last):
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/developer/api/app.py", line 29, in predict
+    return jsonify(predictModel(modelA,input,df))
+  File "/home/developer/api/model.py", line 63, in predictModel
+    predictions = model.predict(X)
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/keras/engine/training.py", line 2407, in predict
+    raise ValueError(
+ValueError: Unexpected result of `predict_function` (Empty batch_outputs). Please use `Model.compile(..., run_eagerly=True)`, or `tf.config.run_functions_eagerly(True)` for more information of where went wrong, or file a issue/bug to `tf.keras`.
+118.189.206.229 - - [15/Aug/2023 06:06:45] "[35m[1mGET /predict?hour=2&station_id=S44 HTTP/1.1[0m" 500 -
+2023-08-15 06:07:07.704738: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:07:07.706121: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:07:07.707586: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 06:07:12.696409: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:07:12.697808: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:07:12.699037: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 380ms/step
+118.189.206.229 - - [15/Aug/2023 06:07:12] "GET /predict?hour=2&station_id=S50 HTTP/1.1" 200 -
+2023-08-15 06:08:38.149213: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:08:38.152207: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:08:38.153479: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 06:08:43.061670: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:08:43.063286: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:08:43.064839: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 401ms/step
+118.189.206.229 - - [15/Aug/2023 06:08:43] "GET /predict?hour=2&station_id=S50 HTTP/1.1" 200 -
+2023-08-15 06:10:10.320525: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:10:10.322166: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:10:10.323735: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 06:10:15.311754: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 06:10:15.313544: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 06:10:15.314987: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+WARNING:tensorflow:5 out of the last 49 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f921c068040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+1/4 [======>.......................] - ETA: 1s4/4 [==============================] - 0s 2ms/step
+118.189.206.229 - - [15/Aug/2023 06:10:15] "GET /predict?hour=24&station_id=S43 HTTP/1.1" 200 -
+162.142.125.226 - - [15/Aug/2023 08:04:06] code 400, message Bad request version ('¥Ñø;Yø\x12')
+162.142.125.226 - - [15/Aug/2023 08:04:06] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03©#\x03!\x04.\x98Ýxõ÷´ù\x92\x0b\x1c²\x8f\x1f¥Ñø;Yø\x12[0m" HTTPStatus.BAD_REQUEST -
+162.142.125.226 - - [15/Aug/2023 08:04:07] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.226 - - [15/Aug/2023 08:04:08] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.226 - - [15/Aug/2023 08:04:08] code 505, message Invalid HTTP version (2.0)
+162.142.125.226 - - [15/Aug/2023 08:04:08] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+2023-08-15 08:46:20.499997: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 08:46:20.501552: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 08:46:20.502905: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-15 08:46:25.431585: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 08:46:25.433033: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 08:46:25.434394: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+WARNING:tensorflow:6 out of the last 53 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7f921c068040> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+1/4 [======>.......................] - ETA: 1s4/4 [==============================] - 0s 2ms/step
+118.189.206.229 - - [15/Aug/2023 08:46:25] "GET /predict?hour=24&station_id=S43 HTTP/1.1" 200 -
+205.210.31.19 - - [15/Aug/2023 09:43:48] "[33mGET / HTTP/1.0[0m" 404 -
+168.80.174.2 - - [15/Aug/2023 12:44:42] code 400, message Bad request version ('ÿÿÿÖ\x02\x07\x06\x80\x06H\x00\x00\x00')
+168.80.174.2 - - [15/Aug/2023 12:44:42] "[35m[1m\x02\x01\x00]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00 \x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01512 \x00\x00\x00\x03\x00\x00\x00\x00â\x00\x12\x01\x07ïe\x7f ÿÿÿÖ\x02\x07\x06\x80\x06H\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+2023-08-15 15:39:26.036977: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-15 15:39:26.038565: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-15 15:39:26.040071: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+[2023-08-15 15:39:30,744] ERROR in app: Exception on /predict [GET]
+Traceback (most recent call last):
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/developer/api/app.py", line 29, in predict
+    return jsonify(predictModel(modelA,input,df))
+  File "/home/developer/api/model.py", line 63, in predictModel
+    predictions = model.predict(X)
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/keras/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/developer/anaconda3/envs/api_env/lib/python3.10/site-packages/keras/engine/training.py", line 2407, in predict
+    raise ValueError(
+ValueError: Unexpected result of `predict_function` (Empty batch_outputs). Please use `Model.compile(..., run_eagerly=True)`, or `tf.config.run_functions_eagerly(True)` for more information of where went wrong, or file a issue/bug to `tf.keras`.
+118.189.206.229 - - [15/Aug/2023 15:39:30] "[35m[1mGET /predict?hour=2&station_id=S50 HTTP/1.1[0m" 500 -
+35.203.210.6 - - [15/Aug/2023 19:47:26] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03=É\x11Û,½u½QÂäÈð¼0\x10SdG\x9f\x15wåÅÕ\x90Ff\x03#\x08\\\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À")
+35.203.210.6 - - [15/Aug/2023 19:47:26] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03=É\x11Û,½u½QÂäÈð¼0\x10SdG\x9f\x15wåÅÕ\x90Ff\x03#\x08\\\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+198.235.24.22 - - [15/Aug/2023 22:00:04] "[33mGET / HTTP/1.0[0m" 404 -
+172.105.128.12 - - [15/Aug/2023 23:38:39] code 400, message Bad request version ('À\x14À')
+172.105.128.12 - - [15/Aug/2023 23:38:39] "[35m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03uè°oëÇ)W\x12\x9dÚzá:ðÌ^¢\x8d"ò\x84´\x1b\x91ffxv\x14\x98f\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+198.235.24.13 - - [16/Aug/2023 00:02:24] "[33mGET / HTTP/1.1[0m" 404 -
+152.32.180.70 - - [16/Aug/2023 00:23:14] code 400, message Bad request version ('À\x14À')
+152.32.180.70 - - [16/Aug/2023 00:23:14] "[35m[1m\x16\x03\x01\x01\x09\x01\x00\x01\x05\x03\x03\x19t×Lï¹¶Ú38öù0ºÉÓÞ%Ô±O'\x9a:2â\x09Pñ\x16µæ \x1f\x88rÂÜqj\x84w\x06óuCµ,\x102Y\x1bÃàÈ0è\x9fèçÙ\x19'\x06É\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+152.32.180.70 - - [16/Aug/2023 00:23:25] "[33mGET / HTTP/1.1[0m" 404 -
+152.32.180.70 - - [16/Aug/2023 00:23:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+152.32.180.70 - - [16/Aug/2023 00:23:26] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+152.32.180.70 - - [16/Aug/2023 00:23:26] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+107.170.236.29 - - [16/Aug/2023 02:27:12] "[33mGET /v2/ HTTP/1.1[0m" 404 -
+13.65.36.171 - - [16/Aug/2023 02:48:53] "[33mGET / HTTP/1.0[0m" 404 -
+13.65.36.171 - - [16/Aug/2023 02:48:53] code 400, message Bad request version ('RTSP/1.0')
+13.65.36.171 - - [16/Aug/2023 02:48:53] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+13.65.36.171 - - [16/Aug/2023 02:48:55] code 400, message Bad HTTP/0.9 request type ('\x00')
+13.65.36.171 - - [16/Aug/2023 02:48:55] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+13.65.36.171 - - [16/Aug/2023 02:48:56] code 400, message Bad request version ('0.12\x00')
+13.65.36.171 - - [16/Aug/2023 02:48:56] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+13.65.36.171 - - [16/Aug/2023 02:48:57] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+13.65.36.171 - - [16/Aug/2023 02:48:57] "[35m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+13.65.36.171 - - [16/Aug/2023 02:48:57] "[33mOPTIONS / HTTP/1.0[0m" 404 -
+13.65.36.171 - - [16/Aug/2023 02:48:58] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+13.65.36.171 - - [16/Aug/2023 02:48:58] "[35m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+13.65.36.171 - - [16/Aug/2023 02:48:58] code 400, message Bad request syntax ('HELP')
+13.65.36.171 - - [16/Aug/2023 02:48:58] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+13.65.36.171 - - [16/Aug/2023 02:48:58] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+13.65.36.171 - - [16/Aug/2023 02:48:58] "[35m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" HTTPStatus.BAD_REQUEST -
+13.65.36.171 - - [16/Aug/2023 02:48:58] code 400, message Bad request version ('\x00/\x00')
+13.65.36.171 - - [16/Aug/2023 02:48:58] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+205.210.31.171 - - [16/Aug/2023 03:33:39] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.223 - - [16/Aug/2023 05:18:59] code 400, message Bad request version ('À\x14À')
+162.142.125.223 - - [16/Aug/2023 05:18:59] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x11\x1a\x95l§5\x87Z}¥\x06¿CÐ]¨!\x91ï\x9arÜe^ÓªÜ*Û\x10q  ;þ¯0ãzÄ\x95dM\x0do¬\x96Áy46Àj\x80ò\x10Ú\x16\x07£×Z\x05¦Ñ\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+162.142.125.223 - - [16/Aug/2023 05:19:00] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.223 - - [16/Aug/2023 05:19:00] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.223 - - [16/Aug/2023 05:19:00] code 505, message Invalid HTTP version (2.0)
+162.142.125.223 - - [16/Aug/2023 05:19:00] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+118.123.105.93 - - [16/Aug/2023 07:18:33] code 400, message Bad request version ('ÿÿÿÖ\x02\x07\x06\x80\x06H\x00\x00\x00')
+118.123.105.93 - - [16/Aug/2023 07:18:33] "[35m[1m\x02\x01\x00]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00 \x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01512 \x00\x00\x00\x03\x00\x00\x00\x00â\x00\x12\x01\x07ïe\x7f ÿÿÿÖ\x02\x07\x06\x80\x06H\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+123.254.109.79 - - [16/Aug/2023 07:32:37] code 400, message Bad request version ('À\x14À')
+123.254.109.79 - - [16/Aug/2023 07:32:37] "[35m[1m\x16\x03\x01\x00¯\x01\x00\x00«\x03\x03Èâ2ÞÃ÷6\x9e/\x94\x04\x8bQÐ\x00k\x99ï\x92\x7fxóË­P\x0e\x8a\x89\x1c\x83dâ\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+123.254.109.79 - - [16/Aug/2023 07:33:01] code 400, message Bad request version ('0.12\x00')
+123.254.109.79 - - [16/Aug/2023 07:33:01] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+123.254.109.79 - - [16/Aug/2023 07:33:11] code 400, message Bad HTTP/0.9 request type ('\x00')
+123.254.109.79 - - [16/Aug/2023 07:33:11] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+123.254.109.79 - - [16/Aug/2023 07:33:12] "[33mGET / HTTP/1.1[0m" 404 -
+123.254.109.79 - - [16/Aug/2023 07:33:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+123.254.109.79 - - [16/Aug/2023 07:33:53] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+123.254.109.79 - - [16/Aug/2023 07:34:01] "[33mGET /sitemap.xml HTTP/1.1[0m" 404 -
+198.235.24.118 - - [16/Aug/2023 08:01:02] "[33mGET / HTTP/1.0[0m" 404 -
+45.143.201.62 - - [16/Aug/2023 08:39:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.143.201.62 - - [16/Aug/2023 08:39:14] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+92.63.196.175 - - [16/Aug/2023 10:20:37] code 400, message Bad request syntax ('\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00')
+92.63.196.175 - - [16/Aug/2023 10:20:37] "[35m[1m\x03\x00\x00\x13\x0eà\x00\x00\x00\x00\x00\x01\x00\x08\x00\x02\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+64.225.57.78 - - [16/Aug/2023 10:21:58] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x06rFF\\\x98íÈMïêuéXJc'æ\x15\x07\x8dFÒÏf\x88ç]Ò®\x074\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+64.225.57.78 - - [16/Aug/2023 10:21:58] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x06rFF\\\x98íÈMïêuéXJc'æ\x15\x07\x8dFÒÏf\x88ç]Ò®\x074\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+64.225.57.78 - - [16/Aug/2023 10:21:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x030P#¦þ¢tiCg±\x18¨òØ\x18N2»bç\x1bO9\x13oØá\x81÷+2\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+64.225.57.78 - - [16/Aug/2023 10:21:58] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x030P#¦þ¢tiCg±\x18¨òØ\x18N2»bç\x1bO9\x13oØá\x81÷+2\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+64.225.57.78 - - [16/Aug/2023 10:21:58] "[33mGET / HTTP/1.1[0m" 404 -
+45.143.201.62 - - [16/Aug/2023 10:51:41] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.143.201.62 - - [16/Aug/2023 10:51:41] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+159.65.60.200 - - [16/Aug/2023 13:56:49] code 400, message Bad request syntax ('\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03÷pÈe\x19\x1aeÖGPx\x1a¼kºb\x0f\x9b\x04P\x83z\x1a[\x06¨{·{7¿Y\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+159.65.60.200 - - [16/Aug/2023 13:56:49] "[35m[1m\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03÷pÈe\x19\x1aeÖGPx\x1a¼kºb\x0f\x9b\x04P\x83z\x1a[\x06¨{·{7¿Y\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+2023-08-16 15:53:44.159044: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-16 15:53:44.162973: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-16 15:53:44.166855: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+2023-08-16 15:53:51.947686: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_2_grad/concat/split_2/split_dim' with dtype int32
+	 [[{{node gradients/split_2_grad/concat/split_2/split_dim}}]]
+2023-08-16 15:53:51.951132: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_grad/concat/split/split_dim' with dtype int32
+	 [[{{node gradients/split_grad/concat/split/split_dim}}]]
+2023-08-16 15:53:51.954256: I tensorflow/core/common_runtime/executor.cc:1197] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'gradients/split_1_grad/concat/split_1/split_dim' with dtype int32
+	 [[{{node gradients/split_1_grad/concat/split_1/split_dim}}]]
+1/3 [=========>....................] - ETA: 1s3/3 [==============================] - 1s 3ms/step
+118.189.206.229 - - [16/Aug/2023 15:53:52] "GET /predict?hour=24&station_id=S43 HTTP/1.1" 200 -
+198.235.24.14 - - [16/Aug/2023 19:25:32] "[33mGET / HTTP/1.0[0m" 404 -
+198.235.24.209 - - [16/Aug/2023 19:48:02] "[33mGET / HTTP/1.1[0m" 404 -
+162.216.150.9 - - [16/Aug/2023 20:37:22] code 400, message Bad request version ('À(À$À\x14À')
+162.216.150.9 - - [16/Aug/2023 20:37:22] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03\x10>\x80cªÓ\x93ÿ\x8d2Ñ)[Äv\x99\x94\x86«-\x85d\x01ã­87¼\x12C\x86æ\x00\x00hÌ\x14Ì\x13À/À+À0À,À\x11À\x07À'À#À\x13À\x09À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+185.170.144.3 - - [16/Aug/2023 22:25:01] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [16/Aug/2023 22:25:01] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+45.79.181.104 - - [16/Aug/2023 23:39:56] code 400, message Bad request version ('À\x14À')
+45.79.181.104 - - [16/Aug/2023 23:39:56] "[35m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03\x92·ªÎ.5k\x86=>Ü¼°lY5[º\x03­Oµ¾\x83}©E\x91<Ê28\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+205.210.31.59 - - [17/Aug/2023 01:58:04] "[33mGET / HTTP/1.0[0m" 404 -
+45.156.129.7 - - [17/Aug/2023 02:07:47] "[33mGET /cgi-bin/authLogin.cgi HTTP/1.1[0m" 404 -
+45.156.129.7 - - [17/Aug/2023 02:08:01] "[33mGET / HTTP/1.1[0m" 404 -
+172.105.128.12 - - [17/Aug/2023 02:48:15] "[33mGET / HTTP/1.1[0m" 404 -
+118.123.105.93 - - [17/Aug/2023 02:53:07] code 400, message Bad request version ('ÿÿÿÖ\x02\x07\x06\x80\x06H\x00\x00\x00')
+118.123.105.93 - - [17/Aug/2023 02:53:07] "[35m[1m\x02\x01\x00]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00 \x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01512 \x00\x00\x00\x03\x00\x00\x00\x00â\x00\x12\x01\x07ïe\x7f ÿÿÿÖ\x02\x07\x06\x80\x06H\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+198.235.24.136 - - [17/Aug/2023 03:13:19] "[33mGET / HTTP/1.1[0m" 404 -
+209.97.184.63 - - [17/Aug/2023 03:24:24] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03õ×à°§\x82géf')
+209.97.184.63 - - [17/Aug/2023 03:24:24] "[35m[1m\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03õ×à°§\x82géf\x1dt\x11_´=\x9aÊõ[0m" HTTPStatus.BAD_REQUEST -
+167.94.138.124 - - [17/Aug/2023 06:01:51] code 400, message Bad request version ('À\x14À')
+167.94.138.124 - - [17/Aug/2023 06:01:51] "[35m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03q\x8eN\x135e-nm<\x0bTÔI4]\x80ò&\x05­G\x02\x81¸Kéã«5\x8eo \x19øç\x9dJu\x95qÔ\x95\x81K£W¼Ñô \x9b\x8d\x10&ºÖR%Ù\x93\x10Ðæ<\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+167.94.138.124 - - [17/Aug/2023 06:01:52] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.124 - - [17/Aug/2023 06:01:52] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.124 - - [17/Aug/2023 06:01:52] code 505, message Invalid HTTP version (2.0)
+167.94.138.124 - - [17/Aug/2023 06:01:52] "[35m[1mPRI * HTTP/2.0[0m" HTTPStatus.HTTP_VERSION_NOT_SUPPORTED -
+20.3.138.219 - - [17/Aug/2023 07:26:35] "[33mGET / HTTP/1.0[0m" 404 -
+20.3.138.219 - - [17/Aug/2023 07:26:35] code 400, message Bad request version ('RTSP/1.0')
+20.3.138.219 - - [17/Aug/2023 07:26:35] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+20.3.138.219 - - [17/Aug/2023 07:26:36] code 400, message Bad HTTP/0.9 request type ('\x00')
+20.3.138.219 - - [17/Aug/2023 07:26:36] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+20.3.138.219 - - [17/Aug/2023 07:26:37] code 400, message Bad request version ('0.12\x00')
+20.3.138.219 - - [17/Aug/2023 07:26:37] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+20.3.138.219 - - [17/Aug/2023 07:26:38] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+20.3.138.219 - - [17/Aug/2023 07:26:38] "[35m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+20.3.138.219 - - [17/Aug/2023 07:26:38] "[33mOPTIONS / HTTP/1.0[0m" 404 -
+20.3.138.219 - - [17/Aug/2023 07:26:39] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+20.3.138.219 - - [17/Aug/2023 07:26:39] "[35m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+20.3.138.219 - - [17/Aug/2023 07:26:39] code 400, message Bad request syntax ('HELP')
+20.3.138.219 - - [17/Aug/2023 07:26:39] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+20.3.138.219 - - [17/Aug/2023 07:26:40] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+20.3.138.219 - - [17/Aug/2023 07:26:40] "[35m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" HTTPStatus.BAD_REQUEST -
+20.3.138.219 - - [17/Aug/2023 07:26:40] code 400, message Bad request version ('\x00/\x00')
+20.3.138.219 - - [17/Aug/2023 07:26:40] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+79.124.62.106 - - [17/Aug/2023 11:20:37] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+79.124.62.106 - - [17/Aug/2023 11:20:37] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+198.235.24.131 - - [17/Aug/2023 21:35:59] "[33mGET / HTTP/1.1[0m" 404 -
+103.56.61.144 - - [17/Aug/2023 23:00:38] code 400, message Bad request version ('ÿÿÿÖ\x02\x07\x06\x80\x06H\x00\x00\x00')
+103.56.61.144 - - [17/Aug/2023 23:00:38] "[35m[1m\x02\x01\x00]\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00 \x00\x00\x00\x00\x08\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01512 \x00\x00\x00\x03\x00\x00\x00\x00â\x00\x12\x01\x07ïe\x7f ÿÿÿÖ\x02\x07\x06\x80\x06H\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+185.224.128.17 - - [18/Aug/2023 00:20:18] "[33mCONNECT example.com:80 HTTP/1.1[0m" 404 -
+185.224.128.17 - - [18/Aug/2023 00:20:32] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
+185.224.128.17 - - [18/Aug/2023 00:20:32] "[35m[1m\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00[0m" HTTPStatus.BAD_REQUEST -
+185.224.128.17 - - [18/Aug/2023 00:20:32] code 400, message Bad request syntax ('\x05\x01\x00')
+185.224.128.17 - - [18/Aug/2023 00:20:32] "[35m[1m\x05\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+172.104.11.51 - - [18/Aug/2023 00:22:19] code 400, message Bad request version ('À\x14À')
+172.104.11.51 - - [18/Aug/2023 00:22:19] "[35m[1m\x16\x03\x01\x00\x85\x01\x00\x00\x81\x03\x03§\x09Õ\x95\x04T6¹ª[e\x8d\x1eÓ8·Y\x91wS\x07æÅ0êòÒg=%*\x95\x00\x00 À/À0À+À,Ì¨Ì©À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+52.247.231.86 - - [18/Aug/2023 01:28:28] "[33mGET / HTTP/1.0[0m" 404 -
+52.247.231.86 - - [18/Aug/2023 01:28:28] code 400, message Bad request version ('RTSP/1.0')
+52.247.231.86 - - [18/Aug/2023 01:28:28] "[35m[1mOPTIONS / RTSP/1.0[0m" HTTPStatus.BAD_REQUEST -
+52.247.231.86 - - [18/Aug/2023 01:28:29] code 400, message Bad HTTP/0.9 request type ('\x00')
+52.247.231.86 - - [18/Aug/2023 01:28:29] "[35m[1m\x00\x1e\x00\x06\x01\x00\x00\x01\x00\x00\x00\x00\x00\x00\x07version\x04bind\x00\x00\x10\x00\x03[0m" HTTPStatus.BAD_REQUEST -
+52.247.231.86 - - [18/Aug/2023 01:28:30] code 400, message Bad request version ('0.12\x00')
+52.247.231.86 - - [18/Aug/2023 01:28:30] "[35m[1m\x00\x00\x00¤ÿSMBr\x00\x00\x00\x00\x08\x01@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00@\x06\x00\x00\x01\x00\x00\x81\x00\x02PC NETWORK PROGRAM 1.0\x00\x02MICROSOFT NETWORKS 1.03\x00\x02MICROSOFT NETWORKS 3.0\x00\x02LANMAN1.0\x00\x02LM1.2X002\x00\x02Samba\x00\x02NT LANMAN 1.0\x00\x02NT LM 0.12\x00[0m" HTTPStatus.BAD_REQUEST -
+52.247.231.86 - - [18/Aug/2023 01:28:31] code 400, message Bad request version ('GetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00')
+52.247.231.86 - - [18/Aug/2023 01:28:31] "[35m[1m\x00\x00\x00\x1f\x00\x00\x00\x00\x00\x00\x00\x0cGetClassName\x00\x00\x00\x02\x04\x00\x00\x00\x00\x01\x00[0m" HTTPStatus.BAD_REQUEST -
+52.247.231.86 - - [18/Aug/2023 01:28:31] "[33mOPTIONS / HTTP/1.0[0m" 404 -
+52.247.231.86 - - [18/Aug/2023 01:28:32] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+52.247.231.86 - - [18/Aug/2023 01:28:32] "[35m[1m\x80\x00\x00(rþ\x1d\x13\x00\x00\x00\x00\x00\x00\x00\x02\x00\x01\x86 \x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[0m" HTTPStatus.BAD_REQUEST -
+52.247.231.86 - - [18/Aug/2023 01:28:32] code 400, message Bad request syntax ('HELP')
+52.247.231.86 - - [18/Aug/2023 01:28:32] "[35m[1mHELP[0m" HTTPStatus.BAD_REQUEST -
+52.247.231.86 - - [18/Aug/2023 01:28:32] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+52.247.231.86 - - [18/Aug/2023 01:28:32] "[35m[1m\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00[0m" HTTPStatus.BAD_REQUEST -
+52.247.231.86 - - [18/Aug/2023 01:28:32] code 400, message Bad request version ('\x00/\x00')
+52.247.231.86 - - [18/Aug/2023 01:28:32] "[35m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" HTTPStatus.BAD_REQUEST -
+205.210.31.216 - - [18/Aug/2023 02:46:54] "[33mGET / HTTP/1.0[0m" 404 -
+162.216.149.212 - - [18/Aug/2023 02:55:27] code 400, message Bad request syntax ('\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Qì\x9aÄlÆ')
+162.216.149.212 - - [18/Aug/2023 02:55:27] "[35m[1m\x16\x03\x01\x00Ê\x01\x00\x00Æ\x03\x03Qì\x9aÄlÆ[0m" HTTPStatus.BAD_REQUEST -
+139.59.176.93 - - [18/Aug/2023 03:31:34] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03£Z')
+139.59.176.93 - - [18/Aug/2023 03:31:34] "[35m[1m\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03£Z à\x0fÛl\x01ïU\x0eøÖn\x0fRÓ\x80\x893¿!åP«Æ±¯8ø$P\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" HTTPStatus.BAD_REQUEST -
+198.235.24.151 - - [18/Aug/2023 05:31:38] "[33mGET / HTTP/1.0[0m" 404 -
+205.210.31.196 - - [18/Aug/2023 05:42:25] "[33mGET / HTTP/1.1[0m" 404 -
+46.101.142.146 - - [18/Aug/2023 08:54:13] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00{\x01\x00\x00w\x03\x03B"\x98>De*,cRÚ8d¯¾³&J-\x04p5n¨üB\x16È\x9bøôº\x00\x00\x1aÀ/À+À\x11À\x07À\x13À')
+46.101.142.146 - - [18/Aug/2023 08:54:13] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03B"\x98>De*,cRÚ8d¯¾³&J-\x04p5n¨üB\x16È\x9bøôº\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+46.101.142.146 - - [18/Aug/2023 08:54:13] code 400, message Bad HTTP/0.9 request type ("\x16\x03\x01\x00{\x01\x00\x00w\x03\x03e\x10\x93b»¡zd'ß\x197³,\x11Y+Ð1È£á\x19\x91cÿ\x1b\x89«|d!\x00\x00\x1aÀ/À+À\x11À\x07À\x13À")
+46.101.142.146 - - [18/Aug/2023 08:54:13] "[35m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03e\x10\x93b»¡zd'ß\x197³,\x11Y+Ð1È£á\x19\x91cÿ\x1b\x89«|d!\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" HTTPStatus.BAD_REQUEST -
+46.101.142.146 - - [18/Aug/2023 08:54:13] "[33mGET / HTTP/1.1[0m" 404 -
+91.191.209.206 - - [18/Aug/2023 09:44:21] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+91.191.209.206 - - [18/Aug/2023 09:44:21] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+45.143.201.62 - - [18/Aug/2023 10:23:17] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.143.201.62 - - [18/Aug/2023 10:23:17] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -
+45.143.201.62 - - [18/Aug/2023 12:47:59] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+45.143.201.62 - - [18/Aug/2023 12:47:59] "[35m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" HTTPStatus.BAD_REQUEST -

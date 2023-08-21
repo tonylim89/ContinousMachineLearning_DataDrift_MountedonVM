@@ -1,0 +1,17 @@
+Download anaconda3
+wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+run the bash
+bash Anaconda3-2021.05-Linux-x86_64.sh
+Configure Firewall:
+Allow incoming traffic on ports 5000 (for your application), 22 (SSH), and 80 (HTTP):
+sudo ufw allow 5000
+sudo ufw allow 22
+sudo ufw allow 80
+Enable the firewall to start blocking unwanted traffic:
+sudo ufw enable
+Create a new Conda environment named `api_env` with Python 3.10:
+conda create --name api_env python=3.10
+Activate the newly created environment:
+conda activate api_env
+Install dependencies
+pip install -r requirements.txt
