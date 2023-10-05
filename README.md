@@ -71,8 +71,7 @@ conda activate api_env
 
 **Step 7:** Install Dependencies
 
-Assuming you have a requirements.txt file with your project's dependencies, use pip to install them:
-
+Use pip to install your project's dependencies:
 ```
 pip install -r requirements.txt
 ```
